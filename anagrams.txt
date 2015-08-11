@@ -1,0 +1,35 @@
+comparing two letters
+Input:a,a
+output:true
+
+comparing two different letters
+Input:a,b
+output:false
+
+comparing two mixed case letters of words
+Input:an,aN
+output:true
+
+comparing two words of different lengths
+Input:aaaaa,aaa
+output:false
+
+comparing two words that are anagrams
+Input:cat,act
+output:true
+
+comparing two different three letter words that aren't anagrams
+Input:cat,dog
+output:false
+
+comparing two different three letter words that are anagrams with mixed cases
+Input:Cat, act
+Output:true
+
+does not accept characters that aren't letters
+Input:55,cat
+Output:"Invalid input"
+
+does not accept characters that aren't letters
+Input:2 cats, dogs
+Output:"Invalid input"
