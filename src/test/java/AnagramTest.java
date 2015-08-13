@@ -9,6 +9,6 @@ public class AnagramTest {
     //Boolean result = true;
     //char value = "a";
     ArrayList result = new ArrayList();
-    assertEquals(result, display.isAnagramMultipleWords("a a"));
+    assertEquals(result, display.isAnagram("an", "na"));
   }
 }

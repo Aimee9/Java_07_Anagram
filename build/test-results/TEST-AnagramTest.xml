@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="AnagramTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-08-11T23:47:59" hostname="epicodus-101.local" time="0.003">
+<testsuite name="AnagramTest" tests="1" skipped="0" failures="1" errors="0" timestamp="2015-08-13T23:42:21" hostname="epicodus-110.local" time="0.003">
   <properties/>
   <testcase name="anagram_single_single" classname="AnagramTest" time="0.003">
-    <failure message="java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;[A]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;[A]&gt;
+    <failure message="java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;true&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;[]&gt; but was:&lt;true&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
@@ -53,8 +53,8 @@
 	at java.lang.Thread.run(Thread.java:745)
 </failure>
   </testcase>
-  <system-out><![CDATA[[A]
-[A]
+  <system-out><![CDATA[[A, N]
+[A, N]
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

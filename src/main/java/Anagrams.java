@@ -56,7 +56,12 @@ public class Anagrams {
             elementList.remove(0);
             for(String otherword : elementList) {
                 if(isAnagram(currentword,otherword)){
-                    anagramList.add(currentword);
+                  anagramList.add(otherword);
+                  if (!anagramList.contains(currentword)) {
+                     anagramList.add(currentword);
+                  }
+
+
                 }
             }
         }
